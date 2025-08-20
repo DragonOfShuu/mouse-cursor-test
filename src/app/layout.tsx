@@ -30,7 +30,7 @@ export default function RootLayout({
       >
         <div className={"z-0 fixed left-0 top-0 right-0 h-12 bg-primary-200"}>
         </div>
-        <div className={"z-10 absolute inset-0 p-14 overflow-y-scroll"}>
+        <div className={"z-10 absolute inset-0 p-14 overflow-y-scroll lg:px-48 xl:px-96"}>
           {children}
         </div>
         <div className={"z-0 fixed left-0 bottom-0 right-0 h-12 bg-primary-200"}>

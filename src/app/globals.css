@@ -66,6 +66,9 @@ body {
   .mouse-hover-div p {
     opacity: 0.5;
     transition: opacity 0.2s ease-in-out;
+    color: var(--color-secondary-950);
+
+    @apply sm:text-2xl md:text-5xl;
   }
 
   .mouse-hover-div:hover p {
